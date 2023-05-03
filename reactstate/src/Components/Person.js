@@ -3,7 +3,7 @@ import './Persons.css';
 
 import React, { Component } from 'react';
 // a class-based component.
-class App extends Component {
+class Person extends Component {
   constructor(props) {
     super(props);
 
@@ -60,6 +60,6 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Person;
 
 
